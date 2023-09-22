@@ -1,0 +1,30 @@
+### SignUp
+@url_dev =http://localhost:3055/v1/api
+POST {{url_dev}}/shop/signup
+Content-Type: application/json
+x-api-key:5d6ecf79bc03b9f9a51c000c8962520bd61c1bac55143cc2c06afb05730b79365230167bf192400e4222b2d31ff8b7ed69754532abb6ba68760ac3690195a1bb
+
+{
+    "name":"Shop yyyTips",
+    "email":"shop20@gmail.com",
+    "password":"abc123"
+}
+###
+POST {{url_dev}}/shop/login
+Content-Type: application/json
+x-api-key:5d6ecf79bc03b9f9a51c000c8962520bd61c1bac55143cc2c06afb05730b79365230167bf192400e4222b2d31ff8b7ed69754532abb6ba68760ac3690195a1bb
+
+{
+    "email":"shop20@gmail.com",
+    "password":"abc123"
+}
+
+###
+POST http://localhost:3055/v1/api/shop/signup
+Content-Type: application/json
+
+{
+    "name":"Shop Tips",
+    "email":"shop@gmail.com",
+    "password":"abc123"
+}
